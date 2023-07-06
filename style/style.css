@@ -1,53 +1,56 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container {
-    padding: 0px 60px;
-}
-.nav-container {
-    background-color: #232323;
-    color: #fff;
+.navbar-container {
+    background-color: #1d1d1d;
+    color: #dcdcdc;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0px;
+
+}
+.logo-img {
+    width: 100px;
 }
 
-.nav-items li {
+.menuse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
-    margin-right: 20px;
-    font-size: 26px;
-    cursor: pointer;
 }
-.nav-items {
-    display: flex;
+.menuse li {
+    font-size: 18px;
+    margin-right: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
-.hero-img img {
-    width: 600px;
+.banner-photo {
+    width: 500px;
 }
-section {
-    background-color: rgb(50, 50, 50);
-    background-position: center;
-}
-.hero-container {
+.banner-section {
     display: flex;
     justify-content: space-around;
+    height: 100vh;
     align-items: center;
+}
 
+.title {
+    font-size: 52px;
 }
-h1{
-    font-size: 42px;
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: 'Lato';
-}
-.hero-info p{
+
+.description {
     font-size: 18px;
     margin: 15px 0px;
 }
+
 .btn {
     background-color: #6C63FF;
     padding: 10px 15px;
+    color: #fff;
+    border: 1px solid #6C63FF;
 }
